@@ -12,4 +12,4 @@
       3. Create the topic manually (if not auto-created) `bin\windows\kafka-topics.bat --create --topic notification --bootstrap-server localhost:9092 --partitions 1 --replication-factor 1
 #### 7. Connect a WebSocket Client
 #### 8. Send a Notification Request using postman or your browser
-    http://localhost:8000/notifications/send?message=hi
+    [POST] http://localhost:8000/notifications/send?message=hi
